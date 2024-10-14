@@ -1,0 +1,19 @@
+{
+  "name": "svelte-different-behavior-issue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^4.0.0-next.7",
+    "@total-typescript/tsconfig": "^1.0.4",
+    "svelte": "5.0.0-next.264",
+    "svelte-check": "^4.0.4",
+    "vite": "^5.4.8"
+  }
+}
